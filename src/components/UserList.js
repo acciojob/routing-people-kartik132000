@@ -12,7 +12,7 @@ function UserList() {
       );
       const data = await response.json();
       setUsers(data);
-    }
+    } 
 
     fetchUsers();
   }, []);
